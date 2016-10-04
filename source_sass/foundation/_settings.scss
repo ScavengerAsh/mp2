@@ -72,7 +72,8 @@ $global-radius: 0;
 $global-text-direction: ltr;
 $global-flexbox: false;
 $print-transparent-backgrounds: true;
-
+$teal: rgba(100, 140, 140, 0.7);
+$brown: rgb(100,42,42);
 @include add-foundation-colors;
 
 // 2. Breakpoints
@@ -85,7 +86,7 @@ $breakpoints: (
   xlarge: 1200px,
   xxlarge: 1440px,
 );
-$breakpoint-classes: (small medium large);
+$breakpoint-classes: (small medium large xlarge);
 
 // 3. The Grid
 // -----------
@@ -559,9 +560,9 @@ $tooltip-radius: $global-radius;
 // -----------
 
 $topbar-padding: 0.5rem;
-$topbar-background: $light-gray;
+$topbar-background: $teal;
 $topbar-submenu-background: $topbar-background;
-$topbar-title-spacing: 1rem;
+$topbar-title-spacing: 3rem;
 $topbar-input-width: 200px;
 $topbar-unstack-breakpoint: medium;
 

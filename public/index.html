@@ -7,49 +7,159 @@
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" type="text/css" href="./lib/slick-carousel/slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="./lib/slick-carousel/slick/slick-theme.css">
+  <link rel="stylesheet" type="text/css" href="./lib/foundation-icon-fonts/foundation-icons.css">
+  
+  
 </head>
 
 <body>
-  <nav class="top-bar">
-    <div class="top-bar-left">
-      <ul class="dropdown menu" data-dropdown-menu>
-        <li class="menu-text">MP2</li>
-        <li>
-          <a href="https://courses.engr.illinois.edu/cs498rk1/" target="_blank">Web Page</a>
-        </li>
+  
+
+  <nav data-sticky-container>
+    <div class="top-bar-toggle">
+    <span data-responsive-toggle="navbar" data-hide-for="medium">
+      <button class="menu-icon dark" type="button" data-toggle></button>
+    </span>
+  </div>
+
+  <div class="top-bar" id = "navbar" data-sticky data-options="marginTop:0" style="width:800%">
+    <ul class="dropdown menu" data-dropdown-menu>
+        <li class="menu-text">VineCharcoal Travel Photo Studio</li>
+        <li><a href="#introduction">Photographer Introduction</a></li>
+        <li><a href="#works">Works</a></li>
+        <li><a href="#services">Services and Fee</a></li>
       </ul>
-    </div>
+  </div>
   </nav>
 
-	<div class="row text-center">
-		<h3>LLAMAS</h3>
-	</div>
 
-	<section class="row">
-		<div class="alert columns small-12 large-6">
-			<div class="text-center">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Domestic_llama_(2009-05-19).jpg"/>
+	
+	
+
+	<section class="row align-center align-middle" id = "introduction">
+    <h3 class = "anima"> Photographer Introduction </h3>
+  
+		<div class="alert columns small-11 large-6">
+      <img src="./media/ashley.jpg" width="50%" height="50%">
+      <div class="text-center">
+        <div class="reveal" id="exampleModal1" data-reveal>
+          <img src="./media/figure.jpg" width="70%" height="50%">
+          <button class="close-button" data-close aria-label="Close modal" type="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <p><a data-open="exampleModal1">Enlarge</a></p>
       </div>
-			<p>The llama is a domesticated South American camelid, widely used as a meat and pack animal by Andean cultures since the Pre-Columbian era.
+    </div>
+		<div class="columns small-11 large-6">
+	  	
+	  	<p>Ashley Wang is a 22-year-old young photographer. She loves traveling around the world. In 2012, when she visited an old friend in New York, she found out people might need a professional photographer traveling with them to take pictures for them. She thought it might be a good idea to start a related business. Since she was still in college at that time, she decided to wait.
+
+      In 2016, she gruaduated with a Computer Science degree from University of Illinois. Even though she studies engineering, she is a big fan of fashion design and arts. After her gruadtion, she found a job as a part-time front-end engineer and started VineCharcoal Travel Photo Studio.  
+
+      Though she is busy for most of the times, she loves reading and cooking when she is free.
+
+      </p>
+      
+    </div>
+  </section>
+
+
+
+
+  <section class="row align-center align-middle" id = "works">
+    <h3 class = "anima">Works</h3>
+    <div class="photograph" >  
+      <div>
+        <img src="./media/drawing.jpg" width="70%" height="70%">
+      </div>
+      <div>
+        <img src="./media/night.jpg" width="70%" height="70%">
+      </div>
+      <div>
+        <img src="./media/vancouver.jpg" width="70%" height="70%">
+      </div>
+      <div>
+        <img src="./media/siebel.jpg" width="70%" height="70%">
+      </div>  
+      <div>
+        <img src="./media/figure.jpg" width="70%" height="70%">
+      </div>
+      <div>
+       <img src="./media/shadow.jpg" width="70%" height="70%">
+      </div>
+      <div>
+        <img src="./media/sunset.jpg" width="70%" height="70%">
+      </div>
+      
+      <div>
+        <img src="./media/window.jpg" width="70%" height="70%">
+      </div>
+      <div>
+        <img src="./media/casa.jpg" width="70%" height="70%">
+      </div>
+      <div>
+        <img src="./media/stairs.jpg" width="70%" height="70%">
+      </div>
+
+  </div>
+
+    <div class="columns small-11 large-5">
+       
+      <p>The height of a full-grown, full-size llama is 1.7 to 1.8 m (5.6 to 5.9 ft) tall at the top of the head, and can weigh between 130 and 200 kg (290 and 440 lb). At birth, a baby llama (called a cria) can weigh between 9 and 14 kg (20 and 31 lb). Llamas typically live for 15 to 25 years, with some individuals surviving 30 years or more.</p>
+    </div>
+    <div class="columns small-11 large-5">
+      
+      <p>They are very social animals and live with other llamas as a herd. The wool produced by a llama is very soft and lanolin-free. Llamas are intelligent and can learn simple tasks after a few repetitions. When using a pack, they can carry about 25 to 30% of their body weight for 8 to 13 km (5–8 miles).</p>
+      
+    </div>
+  </section>
+
+  <section class="row align-center align-middle" id = "services">
+    <h3 class = "anima">Services & Fees</h3>
+    <div class="columns small-10 large-5 ">
+      <div class="text-center">
+        <p> Services </p>
+      </div>
+      <p>The llama is a domesticated South American camelid, widely used as a meat and pack animal by Andean cultures since the Pre-Columbian era.
       </p>
       <p>The height of a full-grown, full-size llama is 1.7 to 1.8 m (5.6 to 5.9 ft) tall at the top of the head, and can weigh between 130 and 200 kg (290 and 440 lb). At birth, a baby llama (called a cria) can weigh between 9 and 14 kg (20 and 31 lb). Llamas typically live for 15 to 25 years, with some individuals surviving 30 years or more.</p>
     </div>
-		<div class="columns small-12 large-6">
-	  	<div class="text-center">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Machu_Picchu_Llama_2.jpg"/>
+    <div class="columns small-10 large-5 ">
+      <div class="text-center">
+        <p> Fees </p>
       </div>
-	  	<p>They are very social animals and live with other llamas as a herd. The wool produced by a llama is very soft and lanolin-free. Llamas are intelligent and can learn simple tasks after a few repetitions. When using a pack, they can carry about 25 to 30% of their body weight for 8 to 13 km (5–8 miles).</p>
+      <p>They are very social animals and live with other llamas as a herd. The wool produced by a llama is very soft and lanolin-free. Llamas are intelligent and can learn simple tasks after a few repetitions. When using a pack, they can carry about 25 to 30% of their body weight for 8 to 13 km (5–8 miles).</p>
       <p>The name llama (in the past also spelled 'lama' or 'glama') was adopted by European settlers from native Peruvians.</p>
     </div>
   </section>
 
+
+
+
+  
+
+
+
+
   <footer class="row text-center">
-    <h5>Content taken from <a href="https://en.wikipedia.org/wiki/Llama">wikipedia</a>.</h5>
+    <span >
+      <i class="fi-social-facebook"></i>
+      <i class="fi-social-twitter"></i>
+      <i class="fi-social-pinterest"></i>
+      <i class="fi-social-tumblr"></i>
+      <i class="fi-social-instagram"></i>
+    </span>
+    
   </footer>
   <!-- Scripts -->
   
   <script src="./lib/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script src="./lib/foundation-sites/dist/foundation.min.js"></script>
+  <script type="text/javascript" src="./lib/slick-carousel/slick/slick.min.js"></script>
   <script src="./js/script.js"></script>
   <script>
     $(document).foundation();

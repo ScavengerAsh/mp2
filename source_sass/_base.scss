@@ -1,20 +1,101 @@
 // Add any custom Sass & CSS here
 
+
+
+$font-color : rgb(20, 40, 40);
+
 body{
+	background-color: rgba(100, 140, 140, 0.2);
 	@include breakpoint(medium down){
 		border: 5px black solid;
+
 	}
+
 }
 
-.llama {
-  background: url('../media/llama.jpg') no-repeat center center fixed;
+
+nav a {
+  color: #444;
+  
+  
+}
+
+.active {
+	color: $font-color;
+}
+
+.large{
+	font-size: 1em;
+}
+.small{
+	font-size: 0.8em;
 }
 
 .text-center {
-  padding: 30px;
+  padding: 20px;
+  
 
-  img {
-    border: 1px solid black;
-    max-height: 200px;
+}
+
+section {
+  background-image:  url(../media/balloon.jpg);
+  background-position: top;
+  background-attachment: fixed;
+  background-size: 120%;
+  width: 85%;
+  text-align: center;
+  position: relative;
+
+}
+
+
+.introduction {
+	padding-top: 30px;
+} 
+
+.anima {
+	margin : 30px;
+	color: $font-color;
+	@include breakpoint(large up){
+		animation: 
+    pulse 3s ease infinite alternate, 
+    nudge 15s linear infinite alternate;
+  	border-radius: 100%;
+  	
+  	font-family: "Times New Roman", Georgia, Serif;
+  	font-size: 30px;
+	}
+  
+
+}
+
+@keyframes nudge {
+  0%, 100% {
+    transform: translate(-300px, 0);
+  }
+  50% {
+    transform: translate(300px, 0);
   }
 }
+
+.photograph {
+	@include breakpoint(large up){
+		margin-left: 100px;
+		margin-right: 100px;
+	};
+	@include breakpoint(medium only){
+		margin-left: 80px;
+		margin-right: 80px;
+	};
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	width: 85%;
+	background-color: rgba(235,231,198,0.3);
+}
+
+footer {
+	font-size: 50px;
+}
+
+
