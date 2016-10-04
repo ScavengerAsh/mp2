@@ -6,10 +6,6 @@ $font-color : rgb(20, 40, 40);
 
 body{
 	background-color: rgba(100, 140, 140, 0.2);
-	@include breakpoint(medium down){
-		border: 5px black solid;
-
-	}
 
 }
 
@@ -21,7 +17,7 @@ nav a {
 }
 
 .active {
-	color: $font-color;
+	color: rgb(20, 50, 50);
 }
 
 .large{
@@ -41,7 +37,7 @@ section {
   background-image:  url(../media/balloon.jpg);
   background-position: top;
   background-attachment: fixed;
-  background-size: 120%;
+  background-size: 70%;
   width: 85%;
   text-align: center;
   position: relative;
@@ -68,6 +64,9 @@ section {
   
 
 }
+p {
+	color: $font-color;
+}
 
 @keyframes nudge {
   0%, 100% {
@@ -80,22 +79,30 @@ section {
 
 .photograph {
 	@include breakpoint(large up){
-		margin-left: 100px;
-		margin-right: 100px;
+		margin-left: 60px;
+		
 	};
 	@include breakpoint(medium only){
-		margin-left: 80px;
-		margin-right: 80px;
+		margin-left:45px;
+		
+	};
+	@include breakpoint(small only){
+		margin-left: 20px;
+		
 	};
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-left: 40px;
-	width: 85%;
+	width: 90%;
 	background-color: rgba(235,231,198,0.3);
 }
 
 footer {
 	font-size: 50px;
+	color: $font-color;
 }
 
+.enlarge-modal {
+	color: $font-color;
+}
 
