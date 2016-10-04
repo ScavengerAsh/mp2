@@ -1,20 +1,42 @@
 MP2: Visual Design Research Write Up
-Netid:
+Netid:ywang179
 
 
 Webpage 1:
 
 - [URL]
+
+http://www.polyvore.com/ 
+
 - [WRITE_UP]
+
+Polyvore is a fashion website for the latest trends and hot products. The overall design of the website is pretty neat. First of all, its navbar and footer delivers a high-end effect. Following the nav bar, there is a full width block with a recommendation set of clothes and its logo. For some section like “what to wear”, the name and introduction of the clothes set are in a shape of triangle, which is really creative. The fonts for each part are well-chosen. Even though there are a lot of the elements in each set, the overall look are well-organized and simple. 
+
+
 
 
 Webpage 2:
 
 - [URL]
+
+http://www.ysl.com/us
+
+
 - [WRITE_UP]
+
+This is the official website of Saint Laurent. 
+The animation of the runway video at the beginning is stunning. The rest of the parts are just well-organized texts which make the video standing out. People would focus on all its latest design without getting distracted by other elements. When you click on one of menu displayed by left like “shop women”, the drop menu would be displayed by right in the column, which is avant-garde and good-looking. And when the cursor moves onto the item, you can see the details of the item without clicking in. 
+
 
 
 Webpage 3:
 
 - [URL]
+
+http://www.chanel.com/en_US/fashion/collections/show-spring-summer-2017.html
+
+
 - [WRITE_UP]
+
+This page introduces Chanel spring and summer show for 2017. 
+When you enter the page, you can see a gif which mimic how we do the coding but actually introduces the themes of this show. Since this design is related to something I study, I found it really interesting.  The pictures seem placed randomly onto the page, but I believe all the scales have been well adjusted to create the current effect.  The menu bar is floating in the left bottom corner of the page and create a 3D effect. Every illusion is beautiful and the layers of illustrations are well designed. 

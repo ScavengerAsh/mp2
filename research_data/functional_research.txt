@@ -1,20 +1,39 @@
 MP2: Functional Design Research Write Up
-Netid:
+Netid: ywang179
 
 
 Webpage 1:
 
-- [URL]
+- [URL] 
+
+http://www.dealmoon.com/
+
 - [WRITE_UP]
+
+Dealmoon.com is a shopping deal site. At the website you can find the latest news about store discounts on various stuff. 
+I think this is a good interface because the designers of this interface really know what customers want. For example, you are really busy, you can just go through the Editor’s Hottest Picks/Top Bookmarked Deals on the top or Most Clicked Deals(in two hours, 24 hours and 48 hours) on the right , which contains the hottest deals. You can also go through different categories: beauty, clothes, personal care and so on. When the deal expires, it will keep updated and get marked off. You can also create an account and make comments at the bottom of each deal as well as reply to others’ comments, which makes it a social app.  
+
 
 
 Webpage 2:
 
-- [URL]
+- [URL] 
+
+https://www.google.com/#q=amazon
+
 - [WRITE_UP]
+
+When you search a certain company name in Google, you may find all its general information at the side bar, which I think is really helpful. For example, if you search Amazon, you can find its company type, current CEO, subsidiaries, related companies and even stock price. For most of the people who searches the company name, they are looking for stock price. This function really saves their time. It is really nice that you can get an overall impression of the company right after the search. 
+
+
 
 
 Webpage 3:
 
-- [URL]
-- [WRITE_UP]
+- [URL] 
+
+http://www.wsj.com/
+
+- [WRITE_UP] 
+
+When you want to get the latest market information, Wall Street Journal is probably a good choice. I really love its website for its functionality. First of all, the responsiveness of this website is top-notch. There are a lot of sections and blocks for the full screen. It should be really challenging to re-arrange the sections for a smaller size, but WSJ deals with it excellently.  There is also a photo carousel at the bottom which shows the hottest photos reflecting current events, which is really alarming and thought-provoking. 
