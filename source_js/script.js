@@ -52,7 +52,7 @@ $(document).scroll(function () {
   
  
   
-  var scrollPos = $(document).scrollTop() + 200;
+  var scrollPos = $(document).scrollTop() + 300;
   $('nav a').each(function () {
     var currLink = $(this);
     var refElement = $(currLink.attr("href"));
@@ -61,7 +61,7 @@ $(document).scroll(function () {
       currLink.addClass("active");
     }
 
-  if (scrollPos > 250) {
+  if (scrollPos > 350) {
       $('nav a').removeClass('large');
       $('nav a').addClass('small');
      
